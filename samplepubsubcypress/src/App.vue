@@ -1,7 +1,7 @@
 <template>
   <div>
-      <img alt="Vue logo" src="./assets/logo.png">
       <Publisher msg="I'm the publisher"/>
+      <hr/>
       <Subscriber msg="I'm the subscriber"/>
   </div>
 </template>

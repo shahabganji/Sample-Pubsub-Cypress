@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-        <button type="button" @click.prevent="notifyNavbar">
+        <button type="button" @click.prevent="notifyNavbar" data-cy="publisherbutton">
       Click Me to notify the subscriber below!
     </button>
   </div>
