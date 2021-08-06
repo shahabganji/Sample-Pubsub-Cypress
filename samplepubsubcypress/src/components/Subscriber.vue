@@ -22,9 +22,8 @@ export default defineComponent({
 
     PubSub.subscribe(
       'notification-update',
-      (data: number, message: string) => {
+      (message: string, data: number) => {
         console.log('notification received.');
-        console.log(message);
         console.log(data);
         notificationCount.value += data;
       },

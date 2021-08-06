@@ -19,7 +19,7 @@ export default defineComponent({
   setup() {
     function notifyNavbar() {
       console.log("Sending Notification");
-      PubSub.publish("notification-update", 1);
+      PubSub.publish('notification-update', 1);
       console.log("Notification Sent");
     }
 
